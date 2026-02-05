@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Keyz With Solidrest - Master Piano & Keyboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎹</span>
+                <span class="logo-text">Solidrest</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#benefits" class="nav-link">Why Us</a></li>
+                <li><a href="#testimonials" class="nav-link">Success Stories</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><button class="theme-toggle" id="themeToggle" title="Toggle Theme">🌙</button></li>
+                <li><a href="#booking" class="nav-link cta-nav">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Master Piano & Keyboard<br><span class="highlight">In Just 30 Days</span></h1>
+            <p class="hero-subtitle">Join 2,000+ students transforming their musical dreams into reality with personalized lessons from certified instructors</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>2,000+</h3>
+                    <p>Happy Students</p>
+                </div>
+                <div class="stat">
+                    <h3>95%</h3>
+                    <p>Satisfaction Rate</p>
+                </div>
+                <div class="stat">
+                    <h3>30 Days</h3>
+                    <p>Results Guarantee</p>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="https://wa.me/2348027592657?text=Hi%20Solidrest!%20I'd%20like%20to%20book%20a%20free%20consultation%20for%20keyboard%20lessons." class="btn btn-primary" target="_blank">Start Your Journey Free</a>
+                <button class="btn btn-secondary" onclick="openModal()">Watch Success Stories</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="keyboard-animation">
+                <div class="key" style="animation-delay: 0s;"></div>
+                <div class="key" style="animation-delay: 0.1s;"></div>
+                <div class="key" style="animation-delay: 0.2s;"></div>
+                <div class="key" style="animation-delay: 0.3s;"></div>
+                <div class="key" style="animation-delay: 0.4s;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="badge-container">
+            <div class="badge">⭐ 4.9/5 Stars - 500+ Reviews</div>
+            <div class="badge">✓ Certified Instructors</div>
+            <div class="badge">✓ Lifetime Access</div>
+            <div class="badge">✓ 100% Money Back</div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <h2 class="section-title">Why Choose Learn Keyz With Solidrest?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🎯</div>
+                <h3>Personalized Learning</h3>
+                <p>Each lesson is tailored to your pace and goals. No cookie-cutter courses here.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">👨‍🏫</div>
+                <h3>Expert Instructors</h3>
+                <p>Learn from award-winning musicians with 15+ years of teaching experience.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📱</div>
+                <h3>Learn Anywhere</h3>
+                <p>Live sessions, recorded lessons, and practice guides accessible 24/7 on any device.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⚡</div>
+                <h3>Fast Results</h3>
+                <p>Play your first song in 7 days. Build a complete repertoire in 30 days.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🎵</div>
+                <h3>Flexible Schedule</h3>
+                <p>Book lessons whenever it fits your lifestyle. No long-term contracts.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏆</div>
+                <h3>Proven System</h3>
+                <p>Our method has transformed complete beginners into confident players.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <h2 class="section-title">Your Path to Musical Mastery</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Schedule Consultation</h3>
+                <p>Book a free 15-min call to discuss your goals and musical background.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Personalized Plan</h3>
+                <p>We create a custom learning path designed just for you.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Live Sessions</h3>
+                <p>1-on-1 interactive lessons via Zoom with real-time feedback.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Play & Perform</h3>
+                <p>Perform your first song, join our community, and keep growing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title">Real Results From Real Students</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I went from zero music knowledge to playing full songs in just 21 days! The personalized approach made all the difference."</p>
+                <p class="testimonial-author">- Sarah M., 34</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Best investment I made this year. Not only do I play beautifully now, but I found a real passion for music."</p>
+                <p class="testimonial-author">- James T., 28</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Thought I was too old to learn. Solidrest proved me wrong. Now I'm learning jazz standards!"</p>
+                <p class="testimonial-author">- Margaret K., 67</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"The flexibility is incredible. I could schedule lessons around my crazy work schedule and still make amazing progress."</p>
+                <p class="testimonial-author">- David L., 42</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <h2 class="section-title">Simple, Transparent Pricing</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Single Lesson</h3>
+                <p class="price"><span class="currency">₦</span>5,000</p>
+                <p class="price-period">one lesson</p>
+                <ul class="features-list">
+                    <li>✓ 60-min session</li>
+                    <li>✓ 1-on-1 with instructor</li>
+                    <li>✓ Personalized feedback</li>
+                    <li>✓ Recorded for review</li>
+                </ul>
+                <a href="https://wa.me/2348027592657?text=Hi%20Solidrest!%20I'm%20interested%20in%20the%20Single%20Lesson%20package%20(₦5,000).%20Please%20help%20me%20get%20started." class="btn btn-outline" target="_blank">Choose Plan</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="featured-badge">Best Value</div>
+                <h3>Weekly Pack</h3>
+                <p class="price"><span class="currency">₦</span>10,000</p>
+                <p class="price-period">per week (3 lessons)</p>
+                <ul class="features-list">
+                    <li>✓ 3 lessons per week</li>
+                    <li>✓ 60-min sessions</li>
+                    <li>✓ Practice guide included</li>
+                    <li>✓ Progress tracking</li>
+                    <li>✓ Priority support</li>
+                </ul>
+                <a href="https://wa.me/2348027592657?text=Hi%20Solidrest!%20I'm%20interested%20in%20the%20Weekly%20Pack%20(₦10,000%20-%203%20lessons).%20Let's%20get%20started!" class="btn btn-primary" target="_blank">Get Started Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Monthly Mastery</h3>
+                <p class="price"><span class="currency">₦</span>35,000</p>
+                <p class="price-period">per month</p>
+                <ul class="features-list">
+                    <li>✓ Unlimited lesson access</li>
+                    <li>✓ 60-min sessions</li>
+                    <li>✓ Video lesson library</li>
+                    <li>✓ Performance coaching</li>
+                    <li>✓ 24/7 support</li>
+                </ul>
+                <a href="https://wa.me/2348027592657?text=Hi%20Solidrest!%20I'm%20interested%20in%20the%20Monthly%20Mastery%20package%20(₦35,000).%20Please%20help%20me%20get%20started." class="btn btn-outline" target="_blank">Choose Plan</a>
+            </div>
+        </div>
+        <p class="pricing-note">💯 30-day money-back guarantee on all plans. No questions asked.</p>
+    </section>
+
+    <!-- Calendar Booking Section -->
+    <section class="booking" id="booking">
+        <h2 class="section-title">Reserve Your First Lesson</h2>
+        <div class="booking-container">
+            <div class="calendar-section">
+                <h3>Pick Your Date</h3>
+                <div class="calendar-wrapper">
+                    <div class="calendar-header">
+                        <button class="nav-btn" id="prevMonth">&lt;</button>
+                        <h4 id="monthYear"></h4>
+                        <button class="nav-btn" id="nextMonth">&gt;</button>
+                    </div>
+                    <div class="calendar">
+                        <div class="weekdays">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                        </div>
+                        <div class="days" id="calendarDays"></div>
+                    </div>
+                </div>
+                <div id="selectedDateDisplay" class="selected-date-display">
+                    <p>📅 Select a date to continue</p>
+                </div>
+            </div>
+
+            <div class="time-section">
+                <h3>Choose Your Time</h3>
+                <div class="time-slots" id="timeSlots">
+                    <!-- Time slots will be generated by JS -->
+                </div>
+                <div id="selectedTimeDisplay" class="selected-time-display">
+                    <p>⏰ Pick a time slot</p>
+                </div>
+            </div>
+
+            <div class="details-section">
+                <h3>Your Information</h3>
+                <form id="bookingForm">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                    <textarea id="goals" placeholder="What are your musical goals?" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-submit">Confirm Booking</button>
+                    <p class="booking-note">✓ We'll send a Zoom link to your email 24 hours before your lesson</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(this)">Do I need to know how to read music? 🎼</h4>
+                <p>No! We teach you from scratch. Many of our most successful students started with zero music knowledge.</p>
+            </div>
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(this)">Do I need my own keyboard? ⌨️</h4>
+                <p>Yes, we recommend having a 61-key keyboard (around $100). We can suggest beginner-friendly options.</p>
+            </div>
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(this)">What if I can't make scheduled lessons? 📅</h4>
+                <p>Flexible rescheduling is available up to 24 hours before your lesson. No penalties.</p>
+            </div>
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(this)">Can I get a refund? 💰</h4>
+                <p>Yes! 30-day money-back guarantee if you're not 100% satisfied. We're confident you'll love it.</p>
+            </div>
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(this)">How long are the lessons? ⏱️</h4>
+                <p>Depending on your plan: 30-min, 60-min, or 90-min sessions. You choose what works best.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <h2>Ready to Play Your First Song?</h2>
+        <p>Join thousands of students who transformed from "can't play a note" to confident pianists</p>
+        <a href="https://wa.me/2348027592657?text=Hi%20Solidrest!%20I'm%20ready%20to%20start%20my%20keyboard%20journey.%20Can%20we%20book%20a%20free%20consultation?" class="btn btn-primary btn-large" target="_blank">Book Your Free Consultation Now</a>
+        <p class="no-cc">No credit card required. Pure music. Pure joy.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Learn Keyz With Solidrest. All rights reserved. | Crafted for musicians who dream bigger.</p>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Modal for Video -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-video">
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
